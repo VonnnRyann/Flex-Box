@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    width: 100px;
+    height: 100px;
+    
+}
+.box1, .box2, .box3, .box4{
+    background-color: yellow;
+    border: 2px pink solid;
+}
+.box2 {
+    
+    margin-left: 100px;
+}
+.box3 {
+    
+    margin-left: 200px;
+}
+.box4 {
+    
+    margin-left: 300px;
+}
+#box2, #box3, #box4 {
+    background-color: red;
+    border-right: solid 2px pink;
+    margin-top: -2px;
+}
+#box2 {
+    
+    margin-left: -101px;
+}
+#box3 {
+    margin-left: -201px;
+    width: 200px;
+}
+#box4 {
+    margin-left: -301px;
+    width: 300px;
+}

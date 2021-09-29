@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 420px;
+    height: 420px;
+    border: 10px solid pink;
+}
+div {
+    width: 100px;
+    height: 100px;
+    border: 10px solid gray;
+    color: greenyellow;
+    background-color: greenyellow;
+}
+div:first-of-type{
+    margin-left: 300px;
+    border: 3px solid ;
+    
+}
+div:first-child {
+    margin-left: auto;
+    color: greenyellow;
+}
+div:nth-child(2){
+    margin-left: 200px;
+    border: 10px solid gray;
+
+}
+div:nth-child(3){
+    margin-left: 100px;
+    border: 3px solid ;
+    
+}
+.box1 {
+    color: red;
+    
+}
